@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Recipes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">Lutong Pinoy</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+    </ul>
+    <div class="menu-toggle" id="menuToggle">☰</div>
+  </nav>
+</header>
+
+<section class="recipes-section">
+  <h1>Filipino Recipes</h1>
+
+  <input type="text" id="searchInput" class="search-bar" placeholder="Search recipes...">
+
+  <div class="filter-buttons">
+    <button class="filter-btn active" data-category="all">All</button>
+    <button class="filter-btn" data-category="meat">🥩 Meat</button>
+    <button class="filter-btn" data-category="seafood">🐟 Seafood</button>
+    <button class="filter-btn" data-category="vegetables">🥬 Vegetables</button>
+  </div>
+
+  <div class="recipe-cards">
+
+    <div class="recipe-card" data-name="chicken adobo meat" data-category="meat">
+      <h3>Chicken Adobo</h3>
+      <p>Classic Filipino chicken dish</p>
+      <a href="recipes/meat/chicken-adobo.html">View Recipe</a>
+    </div>
+
+    <div class="recipe-card" data-name="shrimp sinigang seafood" data-category="seafood">
+      <h3>Sinigang na Hipon</h3>
+      <p>Sour shrimp soup</p>
+      <a href="recipes/seafood/shrimp-sinigang.html">View Recipe</a>
+    </div>
+
+    <div class="recipe-card" data-name="pinakbet vegetables" data-category="vegetables">
+      <h3>Pinakbet</h3>
+      <p>Vegetable stew with bagoong</p>
+      <a href="recipes/vegetables/pinakbet.html">View Recipe</a>
+    </div>
+
+  </div>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
